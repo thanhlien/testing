@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>298849469</fileChecksum>
+  <configuration>
+    <name>Flash Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\app\lcd_params.c</file>
+      <file>$PROJ_DIR$\app\lcd_colorbars.c</file>
+      <file>$PROJ_DIR$\..\common\src\system_LPC177x_8x.c</file>
+      <file>$PROJ_DIR$\..\common\src\core_cm3.c</file>
+      <file>$PROJ_DIR$\app\ex_sdram.c</file>
+      <file>$PROJ_DIR$\app\lcd_driver.c</file>
+      <file>$PROJ_DIR$\app\clkpwr.c</file>
+      <file>$PROJ_DIR$\app\lcd_test.c</file>
+      <file>$PROJ_DIR$\app\SMA_16bpp_example.c</file>
+      <file>$PROJ_DIR$\app\ssp.c</file>
+      <file>$PROJ_DIR$\app\timer.c</file>
+      <file>$PROJ_DIR$\app\truly_g240320ltsw.c</file>
+      <file>$PROJ_DIR$\cstartup_M.s</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_colors.c</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_fonts.c</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_helvr10.c</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_rom8x16.c</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_rom8x8.c</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_swim.c</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_swim_font.c</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_swim_image.c</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_x5x7.c</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_winfreesystem14x16.c</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_x6x13.c</file>
+      <file>$PROJ_DIR$\doc\abstract.txt</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\system_LPC177x_8x.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_swim.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_swim_font.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Exe\swim.out</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\SMA_16bpp_example.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_colors.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_fonts.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_rom8x16.o</file>
+      <file>$PROJ_DIR$\app\lcd_params.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_swim_image.pbi</file>
+      <file>$PROJ_DIR$\..\common\inc\type.h</file>
+      <file>$PROJ_DIR$\..\common\inc\core_cmFunc.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lcd_test.pbi</file>
+      <file>$PROJ_DIR$\app\ex_sdram.h</file>
+      <file>$PROJ_DIR$\app\timer.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\system_LPC177x_8x.o</file>
+      <file>$PROJ_DIR$\..\common\inc\core_cm3.h</file>
+      <file>$PROJ_DIR$\..\common\inc\LPC177x_8x.h</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_colors.h</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_rom8x16.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lcd_driver.o</file>
+      <file>$PROJ_DIR$\..\common\inc\system_LPC177x_8x.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_colors.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_winfreesystem14x16.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\ssp.pbi</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_fonts.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_helvr10.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_rom8x8.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lcd_colorbars.o</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_swim_font.h</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_rom8x8.h</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_helvr10.h</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_winfreesystem14x16.h</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_x6x13.h</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_x5x7.h</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_swim_image.h</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_types.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\..\common\inc\core_cmInstr.h</file>
+      <file>$PROJ_DIR$\..\..\swim\lpc_swim.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_swim.pbi</file>
+      <file>$PROJ_DIR$\app\lcd_driver.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_winfreesystem14x16.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\ex_sdram.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_rom8x16.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_x6x13.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\cstartup_M.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\ex_sdram.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_x5x7.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\core_cm3.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_swim_image.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lcd_params.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\ssp.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\clkpwr.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\truly_g240320ltsw.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\clkpwr.pbi</file>
+      <file>$PROJ_DIR$\app\ssp.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\truly_g240320ltsw.o</file>
+      <file>$PROJ_DIR$\app\clkpwr.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$PROJ_DIR$\app\truly_display.h</file>
+      <file>$PROJ_DIR$\app\lcd_type.h</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lcd_colorbars.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\SMA_16bpp_example.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lcd_driver.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\core_cm3.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_rom8x8.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_fonts.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_swim_font.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\swim.pbd</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\timer.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_x5x7.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lcd_params.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_x6x13.o</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lpc_helvr10.pbi</file>
+      <file>$PROJ_DIR$\Flash Debug\Obj\lcd_test.o</file>
+      <file>$PROJ_DIR$\app\clcdc.h</file>
+    </outputs>
+    <file>
+      <name>$PROJ_DIR$\app\lcd_params.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 107</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 33 35 38 40 37 67 39 68 71</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\lcd_colorbars.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 58</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 96</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 40 37 67 39 68 71 92 91 42 66 70 55 48 59 49 62 63 33 35 38 47 46 69 44 36 51 43 95 94</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\src\system_LPC177x_8x.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 40 37 67 39 68 71 47 46 69 44 36 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\common\src\core_cm3.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 99</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 38 40 37 67 39 68 71</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\ex_sdram.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 75</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 79</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 46 38 40 37 67 39 68 71 69 44 36 35 42 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\lcd_driver.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 98</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 46 38 40 37 67 39 68 71 69 44 36 66 90 35 51 43 33 73 111</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\clkpwr.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 85</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 87</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 90 47 46 38 40 37 67 39 68 71 69 44 36 35 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\lcd_test.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 110</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 41</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 93 40 37 67 39 68 71 92 91 47 46 38 69 44 36 51 35 42 33 73 111 70 66 55 48 95 43 94</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\SMA_16bpp_example.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 29</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 97</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\ssp.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 84</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 54</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 88 47 46 38 40 37 67 39 68 71 69 44 36 35 90 51</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 105</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 101</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 47 46 38 40 37 67 39 68 71 69 44 36 51 35 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\app\truly_g240320ltsw.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 89</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 86</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 88 47 46 38 40 37 67 39 68 71 69 44 36 35 33 73 111 94 43</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\cstartup_M.s</name>
+      <outputs>
+        <tool>
+          <name>AARM</name>
+          <file> 78</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\swim\lpc_colors.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 30</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 52</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 48 66</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\swim\lpc_fonts.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 102</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 61 55 66 64 63 62 60 49</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\swim\lpc_helvr10.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 56</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 109</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 61 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\swim\lpc_rom8x16.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 32</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 49 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\swim\lpc_rom8x8.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 100</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 60 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\swim\lpc_swim.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 72</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70 66 55 48 61</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\swim\lpc_swim_font.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 103</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 59 66 70 55 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\swim\lpc_swim_image.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 34</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 65 70 55 48</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\swim\lpc_x5x7.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 106</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 80</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 64 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\swim\lpc_winfreesystem14x16.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 53</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 62 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\swim\lpc_x6x13.c</name>
+      <outputs>
+        <tool>
+          <name>ICCARM</name>
+          <file> 108</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 77</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>BICOMP</name>
+          <file> 66 63 55</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 28</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Flash Debug\Obj\swim.pbd</name>
+      <inputs>
+        <tool>
+          <name>BILINK</name>
+          <file> 97 87 81 79 96 98 107 41 52 31 109 76 57 72 27 34 74 80 77 54 25 101 86</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+</project>
+
+

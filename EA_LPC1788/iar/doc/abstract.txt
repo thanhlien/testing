@@ -1,0 +1,62 @@
+ This project in an example of how to use the graphics library
+ functions from NXP called SWIM (Simple Window Interface Manager).
+ 
+ Required hardware:
+ 	EA LPC1788 OEM board
+	EA OEM Base Board rev. A
+	EA QVGA 320x240 LCD module v2.3
+	EA QVGA Display Adapter rev. A
+	
+ Required Software:
+ 	IAR EWARM v6.20 or newer
+	
+ Description:
+ 	Draws color bars on the LCD using the SWIM library with LCD in RGB:1555 mode.
+
+ Notes:
+ 	The display module is connected to the EA OEM Base Board using an adapter
+	containing several jumpers. The CFG1 through CFG4 jumpers need to be set
+	up like so:
+	CFG1 H
+	CFG2 L
+	CFG3 L
+	CFG4 L
+	There is a jumper labeled PWM / SHDN. This should be in the SHDN position.
+
+
+ 	The LPC1788 OEM Board board has external SDRAM using an ISSI IS42S32800D
+
+	This memory will be used as the LCD frame buffer memory for this example.
+	
+	The SDRAM memory resides at address:
+		0xA0000000 - 0xA1FFFFFF using DYNCS0 (32MB, 8Mx32)
+	
+	in 240x320 16bpp RGB:1555 mode the the frame buffer uses 150KB starting at: 
+		0xA0000000 within the SDRAM.
+	
+	The Truly LCD module on the EA-2478 board contains a complete
+	LCD controller module with it's own frame buffer as well as
+	a hardware touchscreen controller. This example disables the
+	LCD controller and frame buffer on the Truly module and places
+	the LCD module into a dumb RGB1555 mode. The SPI interface to the
+	module is used to program the module into this mode.  
+
+	The parameters for the Truly LCD panel are configured in lcd_params.c
+
+  1) Start IAR EWARM 6.2 and open the example workspace file
+
+      Project->Open Workspace..
+      Open the following project: swim.eww
+	  Ensure that 565 mode is selected in the lpc_colors.h file
+	  
+	  #define COLORS_DEF 16      /* 16-bit 565 color mode */
+
+  2) Build the project
+  
+      Project->Make
+      
+  3) Attach your J-Link debugger to the EA-LPC1788 OEM board & PC
+  
+  4) Download the program into flash and run it
+
+      Project->Download and Debug (Ctrl+D)
