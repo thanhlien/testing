@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Project>
+  <Desktop>
+    <Static>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1221</ColumnWidth1></Debug-Log>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>915</ColumnWidth1><ColumnWidth2>244</ColumnWidth2><ColumnWidth3>61</ColumnWidth3></Build>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>187</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Disassembly>
+        <col-names>
+          
+          
+        <item>Disassembly</item><item>_I0</item></col-names>
+        <col-widths>
+          
+          
+        <item>500</item><item>20</item></col-widths>
+        <DisasmHistory/>
+        
+        
+      <ShowCodeCoverage>0</ShowCodeCoverage><ShowInstrProfiling>0</ShowInstrProfiling></Disassembly>
+    </Static>
+    <Windows>
+      
+      
+      
+    <Wnd0>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-4724-8143</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-4201-8153</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd0><Wnd1>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-15472-8146</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>swim</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd1><Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-26221-8149</Identity>
+            <TabName>Disassembly</TabName>
+            <Factory>Disassembly</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\doc\abstract.txt</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\app\lcd_test.c</Filename><XPos>0</XPos><YPos>20</YPos><SelStart>999</SelStart><SelEnd>999</SelEnd></Tab><ActiveTab>1</ActiveTab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\app\lcd_params.c</Filename><XPos>0</XPos><YPos>75</YPos><SelStart>3546</SelStart><SelEnd>3546</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\app\lcd_driver.c</Filename><XPos>0</XPos><YPos>888</YPos><SelStart>20045</SelStart><SelEnd>20045</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\app\ex_sdram.c</Filename><XPos>0</XPos><YPos>241</YPos><SelStart>5888</SelStart><SelEnd>5888</SelEnd></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\app\ex_sdram.h</Filename><XPos>0</XPos><YPos>12</YPos><SelStart>1065</SelStart><SelEnd>1065</SelEnd></Tab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-0118fde8><key>iaridepm.enu1</key></Toolbar-0118fde8></Sizes></Row0><Row1><Sizes><Toolbar-133c1e18><key>debuggergui.enu1</key></Toolbar-133c1e18></Sizes></Row1></Top><Left><Row0><Sizes><Wnd1><Rect><Top>-2</Top><Left>-2</Left><Bottom>635</Bottom><Right>261</Right><x>-2</x><y>-2</y><xscreen>263</xscreen><yscreen>266</yscreen><sizeHorzCX>156548</sizeHorzCX><sizeHorzCY>274793</sizeHorzCY><sizeVertCX>156548</sizeVertCX><sizeVertCY>658058</sizeVertCY></Rect></Wnd1></Sizes></Row0></Left><Right><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>635</Bottom><Right>261</Right><x>-2</x><y>-2</y><xscreen>263</xscreen><yscreen>266</yscreen><sizeHorzCX>156548</sizeHorzCX><sizeHorzCY>274793</sizeHorzCY><sizeVertCX>156548</sizeVertCX><sizeVertCY>658058</sizeVertCY></Rect></Wnd2></Sizes></Row0></Right><Bottom><Row0><Sizes><Wnd0><Rect><Top>-2</Top><Left>-2</Left><Bottom>264</Bottom><Right>1682</Right><x>-2</x><y>-2</y><xscreen>1684</xscreen><yscreen>266</yscreen><sizeHorzCX>1002381</sizeHorzCX><sizeHorzCY>274793</sizeHorzCY><sizeVertCX>156548</sizeVertCX><sizeVertCY>274793</sizeVertCY></Rect></Wnd0></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Project>
+
+
